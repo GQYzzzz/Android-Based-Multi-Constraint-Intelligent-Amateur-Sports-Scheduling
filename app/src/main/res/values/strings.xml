@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SportsScheduling</string>
+
+    <string-array name="signs">
+        <item>on or before</item>
+        <item>on or after</item>
+    </string-array>
+
+</resources>

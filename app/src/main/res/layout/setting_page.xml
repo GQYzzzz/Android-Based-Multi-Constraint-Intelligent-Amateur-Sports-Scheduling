@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <Button
+        android:id="@+id/teamSettingButton"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="Team Settings"
+        android:textSize="24sp"
+        app:backgroundTint="@color/brown"
+        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintEnd_toEndOf="@+id/bg"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/bg"
+        app:layout_constraintTop_toTopOf="@+id/bg"
+        app:layout_constraintVertical_bias="0.110"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/venueSettingButton"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="Venue Settings"
+        android:textSize="24sp"
+        app:backgroundTint="@color/brown"
+        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintEnd_toEndOf="@+id/bg"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/bg"
+        app:layout_constraintTop_toTopOf="@+id/bg"
+        app:layout_constraintVertical_bias="0.290"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/timeSettingButton"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="Time Settings"
+        android:textSize="24sp"
+        app:backgroundTint="@color/brown"
+        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintEnd_toEndOf="@+id/bg"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bg"
+        app:layout_constraintVertical_bias="0.470"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/constraintsSettingButton"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="Constraints Settings"
+        android:textSize="24sp"
+        app:backgroundTint="@color/brown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bg"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/bg"
+        app:layout_constraintTop_toTopOf="@+id/bg"
+        app:layout_constraintVertical_bias="0.650"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="Cancel"
+        android:textSize="24sp"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bg"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="@+id/bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="Generate"
+        android:textSize="24sp"
+        app:backgroundTint="@color/darkGreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bg"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="@+id/bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/errorConstraint"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Please complete the first three Settings before continuing the Constraint Setting!"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767" />
+
+    <TextView
+        android:id="@+id/errorTime"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Please complete Team and venue Settings before continuing the Time Setting!"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767" />
+
+    <TextView
+        android:id="@+id/errorGenerate"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Please complete at least the first three Settings before continuing!"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767" />
+
+    <TextView
+        android:id="@+id/startGenerate"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Started generating, it may take a few seconds..."
+        android:textColor="@color/orange"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
