@@ -1,7 +1,8 @@
 # Android-Based Multi-Constraint Intelligent Scheduling for Amateur Sports Competitions
 
 This project implements an Android app that generates optimised sports schedules for amateur competitions using the Simulated Annealing algorithm.
-<img src="app.png" width=50%>
+
+<img src="app.png" width=20%>
 
 ## Project Structure
 
