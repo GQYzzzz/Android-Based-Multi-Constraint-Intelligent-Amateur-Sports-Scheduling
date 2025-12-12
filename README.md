@@ -1,12 +1,17 @@
 # Android-Based Multi-Constraint Intelligent Scheduling for Amateur Sports Competitions
 
 This project implements an Android app that generates optimised sports schedules for amateur competitions using the Simulated Annealing algorithm.
+![App Interface](app.png)
 
 ## Project Structure
 
 - `app/` – contains source code and layout XML files
 - `gradle/` and `build.gradle.kts` – Gradle configuration
 - `README.md` – project description and instructions
+
+Detailed description of the project can be found here: [description](report.pdf)
+
+Demo of the project could be found here: [demo](demo.mp4)
 
 ## How to Run
 
@@ -27,6 +32,9 @@ This project implements an Android app that generates optimised sports schedules
 - Configure constraints
 - Click **"Generate"** to create a valid schedule
 - Save result to local file
+
+## App Preview
+![ ](preview.png)
 
 ## Dependencies
 
